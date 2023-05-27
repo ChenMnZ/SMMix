@@ -123,7 +123,7 @@ def get_args_parser():
                         help='the minimum side ration of crop rectangle')
     parser.add_argument('--max_side_ratio', type=float, default=0.75,
                         help='the maximum side ration of crop rectangle')
-    parser.add_argument('--side', type=float, default=14,
+    parser.add_argument('--side', type=int, default=14,
                         help='the side length of tokens')
     parser.add_argument('--mixup-switch-prob', type=float, default=0.5,
                         help='Probability of switching to cutmix when both mixup and cutmix enabled')
