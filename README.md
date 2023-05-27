@@ -48,12 +48,12 @@ examples:
 
 ## Training
 ```
-./script/train.sh --data-path DATASET_PATH --model MODEL_NAME --output_dir LOG_PATH
+./script/train.sh --data-path DATASET_PATH --model MODEL_NAME --output_dir LOG_PATH --batch_size 256
 ```
 examples:
 ```
-./script/train.sh --data-path /media/DATASET/ImageNet --model pvt_small --output_dir ./log/pvt_small_smmix
+./script/train.sh --data-path /media/DATASET/ImageNet --model pvt_small --output_dir ./log/pvt_small_smmix --batch_size 256
 ```
 ```
-./script/train.sh --data-path /media/DATASET/ImageNet --model vit_deit_small_patch16_224 --output_dir ./log/deit_small_smmix
+./script/train.sh --data-path /media/DATASET/ImageNet --model vit_deit_small_patch16_224 --output_dir ./log/deit_small_smmix --batch_size 256
 ```
