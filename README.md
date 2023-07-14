@@ -1,5 +1,5 @@
-# SMMix
-This a Pytorch implementation of our paper "SMMix: Self-Motivated Image Mixing for Vision Transformers"
+# SMMix: Self-Motivated Image Mixing for Vision Transformers (ICCV 2023)
+This a Pytorch implementation of our paper [SMMix: Self-Motivated Image Mixing for Vision Transformers](https://arxiv.org/abs/2212.12977)
 
 
 ## Requirements
